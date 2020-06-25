@@ -361,7 +361,7 @@ Returns the best language tag possible and its reading direction (⚠️ **it re
 ```ts
 type findBestAvailableLanguage = (
   languageTags: Array<string>,
-) => { languageTag: string; isRTL: boolean } | void;
+) => { languageTag: string; isRTL: boolean } | undefined;
 ```
 
 #### Usage example
